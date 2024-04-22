@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/ingresar_dinero2"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingresar Dinero"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="83dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_perfil" />
+
+    <TextView
+        android:id="@+id/nombre_usuario2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="588dp"
+        android:text="Juan Benavides Ávila"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/correo_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="560dp"
+        android:text="juanbenavidesavila@gmail.com"
+        android:textColor="#6C6B6B"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/monto"
+        android:layout_width="105dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="484dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MONTO"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/monto_ingresado"
+        android:layout_width="369dp"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=" $"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/detalle"
+        android:layout_width="153dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="312dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Detalle"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="260dp"
+        android:text="Ingrese detalle de trasferencia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_enviar_dinero"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#40D346"
+        android:text="Ingresar Dinero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

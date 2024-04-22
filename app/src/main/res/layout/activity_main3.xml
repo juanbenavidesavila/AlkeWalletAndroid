@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/inicio"
+        android:layout_width="377dp"
+        android:layout_height="105dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Inicia sesión y comienza a realizar tus transacciones de la forma más rapida"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="66dp"
+        android:layout_height="27dp"
+        android:text="E-Mail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <EditText
+        android:id="@+id/ing_mail"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#03A9F4"
+        android:text="Ingrese su correo"
+        android:textColor="#42B846"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <TextView
+        android:id="@+id/contasena"
+        android:layout_width="82dp"
+        android:layout_height="24dp"
+        android:text="Contraseña"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <EditText
+        android:id="@+id/ing_contrasena"
+        android:layout_width="365dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Ingrse su Contaseña"
+        android:textColor="#46CA4B"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <ImageView
+        android:id="@+id/vista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <TextView
+        android:id="@+id/olvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Has Olvidado tu Contraseña?"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <Button
+        android:id="@+id/sesion"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#53D358"
+        android:text="Iniciar Sesión"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <TextView
+        android:id="@+id/nueva_cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea Nueva Cuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sesion"
+        app:layout_constraintVertical_bias="0.357" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
