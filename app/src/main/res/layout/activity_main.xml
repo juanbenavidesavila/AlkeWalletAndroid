@@ -21,4 +21,24 @@
         app:layout_constraintVertical_bias="0.462"
         app:srcCompat="@drawable/logo" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#03FDF8F8"
+        android:backgroundTint="#F8F5F5"
+        android:drawableTint="#00F4F0F0"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#EDEBEB"
+        android:text="clic to continue"
+        android:textColor="#FFF8F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
