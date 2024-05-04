@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/fondo2" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/img_perfil"
         android:layout_width="144dp"
         android:layout_height="134dp"
         app:layout_constraintBottom_toBottomOf="parent"
