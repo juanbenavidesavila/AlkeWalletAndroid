@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         ImageView next= findViewById(R.id.logo);
 
         next.setOnClickListener(new View.OnClickListener() {
