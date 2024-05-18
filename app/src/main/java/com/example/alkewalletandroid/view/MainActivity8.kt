@@ -1,10 +1,11 @@
-package com.example.alkewalletandroid
+package com.example.alkewalletandroid.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.alkewalletandroid.R
 
 class MainActivity8 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
