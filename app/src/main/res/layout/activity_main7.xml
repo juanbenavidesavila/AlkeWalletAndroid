@@ -72,13 +72,15 @@
         android:id="@+id/monto"
         android:layout_width="105dp"
         android:layout_height="52dp"
-        android:layout_marginEnd="272dp"
-        android:layout_marginBottom="484dp"
         android:fontFamily="sans-serif-black"
         android:text="MONTO"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
 
     <EditText
         android:id="@+id/monto_ingresado"
@@ -98,13 +100,15 @@
         android:id="@+id/detalle"
         android:layout_width="153dp"
         android:layout_height="69dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginBottom="308dp"
         android:fontFamily="sans-serif-black"
         android:text="Detalle"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
 
     <MultiAutoCompleteTextView
         android:id="@+id/multiAutoCompleteTextView"
